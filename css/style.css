@@ -487,14 +487,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-#about .about-img {
-  overflow: hidden;
-  padding-left: 90px;
-
+.about-img {
+  display: block;
 }
 
 #about .about-img img {
-  max-width: 55%;
+  max-width: 60%;
 }
 
 @media (max-width: 768px) {
