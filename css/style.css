@@ -1,13 +1,3 @@
-:root {
-  --verdeclaro: #07ACA5;
-  --verdeoscuro: #0A6157;
-  --amarillo: #FFF112;
-  --anaranjado: #EF810A;
-  --celeste: #5D9BF2;
-  --azul: #1E4BA7;
-  --blanco: #fff;
-  --plomo: rgb(241, 241, 241);
-}
 
 #nav-container {
   width: 100%;
@@ -25,8 +15,8 @@
   left: 0;
   width: 100%;
   transition: all 1s ease;
-  background: #c69f1f; /* Old browsers */
-  background: linear-gradient(251deg, #e60c0c, #f3de2d, #3de84b, #2baeea);
+  background: #9FDFDE; /* Old browsers */
+  background: linear-gradient(251deg, #34A89D, #70C9C3, #9FDFDE, );
   background-size: 800% 800%;
 
   -webkit-animation: overlaygradient 30s ease infinite;
@@ -79,19 +69,19 @@
     left: 0;
     top: -99.1%;
     width: 100%;
-    background: #c6b51f;
+    background: #34A89D;
   }
   33% {
     left: -99.5%;
     top: -99.1%;
     width: 100%;
-    background: #caac25;
+    background: #70C9C3;
   }
   66% {
     left: -99.5%;
     top: 0;
     width: 100%;
-    background: #bba421;
+    background: #9FDFDE;
   }
   100% {
     top: 0;
@@ -365,65 +355,6 @@ header > .header-full {
     color: #000;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
