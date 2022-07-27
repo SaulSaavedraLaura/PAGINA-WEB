@@ -228,14 +228,15 @@
         </div>
     </div>
 
-    <form class="form" method="get" novalidate>
+    <form class="form" novalidate action="https://formspree.io/f/mnqwekey"
+    method="POST">
         <input type="text" name="name" class="name" placeholder="Nombre" required>
           <p class="name-help"></p>
-        <input type="email" name="email" class="email" placeholder="Email">
+        <input type="email" name="email" class="email" placeholder="Email" name="_replyto">
         <input type="tel" name="telephone" class="tel" placeholder="Teléfono" required>
             <p class="email-help">Por favor, introduzca un email correcto.</p>        
             <p class="phone-help">Por favor, introduzca un número de teléfono correcto.</p>
-         <textarea name="user_comment" class="comment" placeholder="Por favor, escriba en un máximo de 150 palabras el motivo que le concierne" rows="6" required></textarea>
+         <textarea name="user_comment" class="comment" placeholder="Por favor, escriba en un máximo de 150 palabras el motivo que le concierne" rows="6" required name="message"></textarea>
         <p class="comment-help">Por favor, responde a esta pregunta sin sobrepasar las 150 palabras.</p>
         <div class="custom-submit">
             <div id="line1"></div>
